@@ -28,7 +28,7 @@ body
 
   display: flex;
  justify-content: center;
-  margin-top: 40px;
+  margin-top: 80px;
   font-family: 'Zen Dots';
   width: 100%;
 
@@ -38,11 +38,9 @@ body
 
 .right
 { 
-    position: absolute; 
-    color: white;
-    right: 34px;
-    top:0px;
-    top:20px;
+display: flex;
+justify-content: right;
+margin-top: -120px;
 }
 .navbar
 {
@@ -80,12 +78,12 @@ body
     
     background-color:rgb(3, 106, 157);
     color:white;
-    margin: auto 12px ;
     border-radius: 10px;
     height: 40px;
     cursor: pointer;
     font-size: 17px;
     font-family: 'Zen Dots';
+    margin-right: 20px;
 }
 .btn:hover
 {
